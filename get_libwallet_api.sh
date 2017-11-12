@@ -22,7 +22,7 @@ git submodule update --remote
 # get electroneum core tag
 get_tag
 # create local electroneum branch
-git -C $ELECTRONEUM_DIR checkout -B release-v0.11.0.0
+git -C $ELECTRONEUM_DIR checkout -B master
 
 # Merge electroneum PR dependencies
 
