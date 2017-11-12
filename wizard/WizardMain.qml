@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2014-2015, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -60,7 +60,7 @@ ColumnLayout {
     property var pages: paths[currentPath]
 
     signal wizardRestarted();
-    signal useMoneroClicked()
+    signal useElectroneumClicked()
     signal openWalletFromFileClicked()
 //    border.color: "#DBDBDB"
 //    border.width: 1
@@ -380,7 +380,7 @@ ColumnLayout {
         visible: parent.paths[currentPath][currentPage] === finishPage
         onClicked: {
             wizard.applySettings();
-            wizard.useMoneroClicked();
+            wizard.useElectroneumClicked();
         }
     }
 

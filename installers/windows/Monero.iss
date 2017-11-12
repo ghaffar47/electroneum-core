@@ -1,16 +1,16 @@
-; Monero Helium Hydra GUI Wallet Installer for Windows
-; Copyright (c) 2014-2017, The Monero Project
+; Electroneum Helium Hydra GUI Wallet Installer for Windows
+; Copyright (c) 2014-2017, The Electroneum Project
 ; See LICENSE
 
 [Setup]
-AppName=Monero GUI Wallet
+AppName=Electroneum GUI Wallet
 ; For InnoSetup this is the property that uniquely identifies the application as such
 ; Thus it's important to keep this stable over releases
 ; With a different "AppName" InnoSetup would treat a mere update as a completely new application and thus mess up
 
 AppVersion=0.11.1.0
-DefaultDirName={pf}\Monero GUI Wallet
-DefaultGroupName=Monero GUI Wallet
+DefaultDirName={pf}\Electroneum GUI Wallet
+DefaultGroupName=Electroneum GUI Wallet
 UninstallDisplayIcon={app}\electroneum-wallet-gui.exe
 PrivilegesRequired=admin
 ArchitecturesInstallIn64BitMode=x64
@@ -36,27 +36,27 @@ Name: "en"; MessagesFile: "compiler:Default.isl"
 Source: "ReadMe.htm"; DestDir: "{app}"; Flags: comparetimestamp
 Source: "FinishImage.bmp"; Flags: dontcopy
 
-; Monero GUI wallet
+; Electroneum GUI wallet
 Source: "bin\electroneum-wallet-gui.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero GUI wallet log file
+; Electroneum GUI wallet log file
 ; The GUI wallet does not have the "--log-file" command-line option of the CLI wallet and insists to put the .log beside the .exe
 ; so pre-create the file and give the necessary permissions to the wallet to write into it
 Source: "electroneum-wallet-gui.log"; DestDir: "{app}"; Flags: comparetimestamp; Permissions: users-modify
 
-; Monero CLI wallet
+; Electroneum CLI wallet
 Source: "bin\electroneum-wallet-cli.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero wallet RPC interface implementation
+; Electroneum wallet RPC interface implementation
 Source: "bin\electroneum-wallet-rpc.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero daemon
+; Electroneum daemon
 Source: "bin\electroneumd.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
-; Monero daemon wrapped in a batch file that stops before the text window closes, to see any error messages
+; Electroneum daemon wrapped in a batch file that stops before the text window closes, to see any error messages
 Source: "electroneum-daemon.bat"; DestDir: "{app}"; Flags: comparetimestamp;
 
-; Monero blockchain utilities
+; Electroneum blockchain utilities
 Source: "bin\electroneum-blockchain-export.exe"; DestDir: "{app}"; Flags: comparetimestamp
 Source: "bin\electroneum-blockchain-import.exe"; DestDir: "{app}"; Flags: comparetimestamp
 
@@ -234,7 +234,7 @@ begin
 
   // Additional wizard page for entering a special blockchain location
   blockChainDefaultDir := ExpandConstant('{commonappdata}\bitelectroneum');
-  s := 'The default folder to store the Monero blockchain is ' + blockChainDefaultDir;
+  s := 'The default folder to store the Electroneum blockchain is ' + blockChainDefaultDir;
   s := s + '. As this will need more than 30 GB of free space, you may want to use a folder on a different drive.';
   s := s + ' If yes, specify that folder here.';
 
@@ -312,7 +312,7 @@ begin
   if CurStep = ssPostInstall then begin
     // Re-build "electroneum-daemon.bat" according to actual install and blockchain directory used
     SetArrayLength(s, 3);
-    s[0] := 'REM Execute the Monero daemon and then stay with window open after it exits';
+    s[0] := 'REM Execute the Electroneum daemon and then stay with window open after it exits';
     s[1] := '"' + ExpandConstant('{app}\electroneumd.exe') + '" ' + DaemonFlags('');
     s[2] := 'PAUSE';
     SaveStringsToFile(ExpandConstant('{app}\electroneum-daemon.bat'), s, false); 
@@ -331,7 +331,7 @@ end;
 
 
 [Icons]
-; Icons in the "Monero GUI Wallet" program group
+; Icons in the "Electroneum GUI Wallet" program group
 ; Windows will almost always display icons in alphabetical order, per level, so specify the text accordingly
 Name: "{group}\GUI Wallet"; Filename: "{app}\electroneum-wallet-gui.exe"
 Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
@@ -339,19 +339,19 @@ Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
 ; Sub-folder "Utilities";
 ; Note that Windows 10, unlike Windows 7, ignores such sub-folders completely
 ; and insists on displaying ALL icons on one single level
-Name: "{group}\Utilities\Monero Daemon"; Filename: "{app}\electroneumd.exe"; Parameters: {code:DaemonFlags}
+Name: "{group}\Utilities\Electroneum Daemon"; Filename: "{app}\electroneumd.exe"; Parameters: {code:DaemonFlags}
 Name: "{group}\Utilities\Read Me"; Filename: "{app}\ReadMe.htm"
 
 ; CLI wallet: Needs a working directory ("Start in:") set in the icon, because with no such directory set
 ; it tries to create new wallets without a path given in the probably non-writable program folder and will abort with an error
-Name: "{group}\Utilities\Textual (CLI) Wallet"; Filename: "{app}\electroneum-wallet-cli.exe"; WorkingDir: "{userdocs}\Monero\wallets"
+Name: "{group}\Utilities\Textual (CLI) Wallet"; Filename: "{app}\electroneum-wallet-cli.exe"; WorkingDir: "{userdocs}\Electroneum\wallets"
 
 ; Icons for troubleshooting problems / testing / debugging
 ; To show that they are in some way different (not for everyday use), make them visually different
 ; from the others by text, and make them sort at the end by the help of "x" in front 
 Name: "{group}\Utilities\x (Check Blockchain Folder)"; Filename: "{win}\Explorer.exe"; Parameters: {code:BlockChainDir}
 Name: "{group}\Utilities\x (Check Daemon Log)"; Filename: "Notepad"; Parameters: {code:DaemonLog}
-Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Explorer.exe"; Parameters: "{userdocs}\Monero\wallets"
+Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Explorer.exe"; Parameters: "{userdocs}\Electroneum\wallets"
 Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: "{app}\electroneum-wallet-gui.log"
 Name: "{group}\Utilities\x (Try Daemon, Exit Confirm)"; Filename: "{app}\electroneum-daemon.bat"
 Name: "{group}\Utilities\x (Try GUI Wallet Low Graphics Mode)"; Filename: "{app}\start-low-graphics-mode.bat"

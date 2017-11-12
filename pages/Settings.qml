@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2014-2015, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -486,9 +486,9 @@ Rectangle {
             text: qsTr("GUI version: ") + Version.GUI_VERSION + translationManager.emptyString
         }
         TextBlock {
-            id: guiMoneroVersion
+            id: guiElectroneumVersion
             Layout.fillWidth: true
-            text: qsTr("Embedded Monero version: ") + Version.GUI_MONERO_VERSION + translationManager.emptyString
+            text: qsTr("Embedded Electroneum version: ") + Version.GUI_MONERO_VERSION + translationManager.emptyString
         }
         TextBlock {
             id: restoreHeightText

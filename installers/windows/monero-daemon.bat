@@ -1,3 +1,3 @@
-REM Execute the Monero daemon and then stay with window open after it exits
-"C:\Program Files\Monero Core\electroneumd.exe"
+REM Execute the Electroneum daemon and then stay with window open after it exits
+"C:\Program Files\Electroneum Core\electroneumd.exe"
 PAUSE
