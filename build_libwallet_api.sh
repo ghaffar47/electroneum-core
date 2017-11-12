@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# ELECTRONEUM_URL=https://github.com/electroneum-project/electroneum.git
+# ELECTRONEUM_URL=https://github.com/electroneum/electroneum.git
 # ELECTRONEUM_BRANCH=master
 CPU_CORE_COUNT=$(grep -c ^processor /proc/cpuinfo 2>/dev/null || sysctl -n hw.ncpu)
 pushd $(pwd)
