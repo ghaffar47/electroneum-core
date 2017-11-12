@@ -2047,8 +2047,8 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Este endereço recebeu %1 monero, com %2 confirmação(ões)</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Este endereço recebeu %1 electroneum, com %2 confirmação(ões)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1317"/>
@@ -2067,7 +2067,7 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Nova versão da GUI do Monero disponível: %1&lt;br&gt;</translation>
     </message>
     <message>
@@ -2123,8 +2123,8 @@ Descrição: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Este endereço recebeu %1 monero, porém a transação ainda não foi minerada</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Este endereço recebeu %1 electroneum, porém a transação ainda não foi minerada</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>

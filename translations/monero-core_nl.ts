@@ -2004,8 +2004,8 @@ Omschrijving: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Dit adres heeft %1 monero ontvangen, maar de transactie is nog niet verwerkt</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Dit adres heeft %1 electroneum ontvangen, maar de transactie is nog niet verwerkt</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2112,8 +2112,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Dit adres heeft %1 monero ontvangen, met %2 bevestiging(en).</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Dit adres heeft %1 electroneum ontvangen, met %2 bevestiging(en).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="744"/>
@@ -2162,8 +2162,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nieuwe versie van monero-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nieuwe versie van electroneum-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>

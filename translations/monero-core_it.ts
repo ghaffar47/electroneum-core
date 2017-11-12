@@ -431,7 +431,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
         <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minare con il tuo computer incrementa la resistenza del network. Più persone minano, più è difficile attaccare monero, e anche un singolo bit è importante.&lt;br&gt; &lt;br&gt;Minare ti da anche una piccola chance di guadagnare qualche Monero. Il tuo computer creerà &quot;hashes&quot; cercando di risolvere un blocco. Se ne trovi uno, riceverai la ricompensa associata al blocco. Buona fortuna!</translation>
+        <translation>Minare con il tuo computer incrementa la resistenza del network. Più persone minano, più è difficile attaccare electroneum, e anche un singolo bit è importante.&lt;br&gt; &lt;br&gt;Minare ti da anche una piccola chance di guadagnare qualche Monero. Il tuo computer creerà &quot;hashes&quot; cercando di risolvere un blocco. Se ne trovi uno, riceverai la ricompensa associata al blocco. Buona fortuna!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -2030,8 +2030,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Questo indirizzo ha ricevuto %1 monero con %2 conferma/e.</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Questo indirizzo ha ricevuto %1 electroneum con %2 conferma/e.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1317"/>
@@ -2050,7 +2050,7 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation>Una nuova versione dell&apos;interfaccia grafica è disponibile: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -2114,8 +2114,8 @@ Fee: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Questo indirizzo ha ricevuto %1 monero, ma la transazione non è ancora stata minata</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Questo indirizzo ha ricevuto %1 electroneum, ma la transazione non è ancora stata minata</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>

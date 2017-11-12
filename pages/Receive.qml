@@ -33,11 +33,11 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import moneroComponents.Clipboard 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionHistoryModel 1.0
+import electroneumComponents.Clipboard 1.0
+import electroneumComponents.Wallet 1.0
+import electroneumComponents.WalletManager 1.0
+import electroneumComponents.TransactionHistory 1.0
+import electroneumComponents.TransactionHistoryModel 1.0
 
 Rectangle {
 
@@ -72,7 +72,7 @@ Rectangle {
     }
 
     function makeQRCodeString() {
-        var s = "monero:"
+        var s = "electroneum:"
         var nfields = 0
         s += addressLine.text
         var amount = amountLine.text.trim()

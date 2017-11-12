@@ -28,8 +28,8 @@
 
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
-import moneroComponents.Clipboard 1.0
-import moneroComponents.AddressBookModel 1.0
+import electroneumComponents.Clipboard 1.0
+import electroneumComponents.AddressBookModel 1.0
 
 ListView {
     id: listView

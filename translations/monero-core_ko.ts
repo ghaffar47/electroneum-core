@@ -2034,7 +2034,7 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="734"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
         <translation>이 주소로 %1 XMR을 받아, %2 번의 컨펌을 받았습니다.</translation>
     </message>
     <message>
@@ -2054,8 +2054,8 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1361"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>monero-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>electroneum-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="529"/>
@@ -2104,7 +2104,7 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="729"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
         <translation>이 주소는 % 1XMR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
     </message>
     <message>

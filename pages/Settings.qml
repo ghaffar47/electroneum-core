@@ -35,7 +35,7 @@ import "../version.js" as Version
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import electroneumComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false

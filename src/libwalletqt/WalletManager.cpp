@@ -317,7 +317,7 @@ QUrl WalletManager::localPathToUrl(const QString &path) const
 double WalletManager::getPasswordStrength(const QString &password) const
 {
     static const char *local_dict[] = {
-        "monero", "fluffypony", NULL
+        "electroneum", "fluffypony", NULL
     };
 
     if (!ZxcvbnInit("zxcvbn.dict")) {

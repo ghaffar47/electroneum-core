@@ -2063,13 +2063,13 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>O nouă versiune monero-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>O nouă versiune electroneum-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Această adresă a primit %1 monero, având %2 confirmări.</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Această adresă a primit %1 electroneum, având %2 confirmări.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2124,8 +2124,8 @@ Descriere: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Această adresă a primit %1 monero, dar tranzacția nu a fost încă minată</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Această adresă a primit %1 electroneum, dar tranzacția nu a fost încă minată</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>

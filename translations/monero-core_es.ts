@@ -2022,8 +2022,8 @@ Comisión:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Esta dirección recibió %1 monero, con %2 confirmacion(es).</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Esta dirección recibió %1 electroneum, con %2 confirmacion(es).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2102,8 +2102,8 @@ Descripción:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Esta dirección recibió %1 monero, pero la transacción no ha sido minada</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Esta dirección recibió %1 electroneum, pero la transacción no ha sido minada</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2157,8 +2157,8 @@ Descripción:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nueva versión de monero-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nueva versión de electroneum-wallet-gui disponible: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>

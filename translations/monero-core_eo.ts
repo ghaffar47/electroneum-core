@@ -1959,8 +1959,8 @@ Bonvolu plibonigi aŭ konekti al alia demono</translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Tio ĉi adreso ricevis %1 moneron; sed la transakcio ankoraŭ ne minatas</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Tio ĉi adreso ricevis %1 electroneumn; sed la transakcio ankoraŭ ne minatas</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2085,8 +2085,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova versio de monero-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nova versio de electroneum-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="566"/>
@@ -2110,8 +2110,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Tio adreso ricevis %1 monero, kun %2 da konfirmo(j)</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Tio adreso ricevis %1 electroneum, kun %2 da konfirmo(j)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="744"/>

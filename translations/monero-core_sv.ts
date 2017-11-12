@@ -2099,8 +2099,8 @@ Ringstorlek:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="729"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Denna adress tog emot %1 monero, men överföringen har ännu inte bekräftats</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Denna adress tog emot %1 electroneum, men överföringen har ännu inte bekräftats</translation>
     </message>
     <message>
         <location filename="../main.qml" line="738"/>
@@ -2137,8 +2137,8 @@ Ringstorlek:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="734"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Denna adress tog emot %1 monero, med %2 bekräftelse(r).</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Denna adress tog emot %1 electroneum, med %2 bekräftelse(r).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="750"/>
@@ -2167,8 +2167,8 @@ Ringstorlek:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1361"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Ny version av monero-wallet-gui finns tillgänglig: %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Ny version av electroneum-wallet-gui finns tillgänglig: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>

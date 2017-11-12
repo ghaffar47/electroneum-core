@@ -2055,7 +2055,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="669"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Tidak bisa mengirim uang monero: </translation>
+        <translation>Tidak bisa mengirim uang electroneum: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="672"/>
@@ -2065,7 +2065,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="678"/>
         <source>Money sent successfully: %1 transaction(s) </source>
-        <translation>Uang monero dikirim dengan sukses: %1 transaksi </translation>
+        <translation>Uang electroneum dikirim dengan sukses: %1 transaksi </translation>
     </message>
     <message>
         <location filename="../main.qml" line="678"/>
@@ -2079,13 +2079,13 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Alamat ini menerima %1 monero, tetapi transaksinya belum termasuk dalam blok</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Alamat ini menerima %1 electroneum, tetapi transaksinya belum termasuk dalam blok</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Alamat ini menerima %1 monero, dengan %2 konfirmasi.</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Alamat ini menerima %1 electroneum, dengan %2 konfirmasi.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1317"/>
@@ -2104,8 +2104,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Versi baru untuk monero-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
+        <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Versi baru untuk electroneum-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>

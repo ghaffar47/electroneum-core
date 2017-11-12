@@ -29,9 +29,9 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.PendingTransaction 1.0
+import electroneumComponents.PendingTransaction 1.0
 import "../components"
-import moneroComponents.Wallet 1.0
+import electroneumComponents.Wallet 1.0
 
 
 Rectangle {
@@ -137,7 +137,7 @@ Rectangle {
 
                       Image {
                           anchors.centerIn: parent
-                          source: "../images/moneroIcon.png"
+                          source: "../images/electroneumIcon.png"
                       }
                   }
                   // Amount input
@@ -528,7 +528,7 @@ Rectangle {
     FileDialog {
         id: signTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" +moneroAccountsDir
+        folder: "file://" +electroneumAccountsDir
         nameFilters: [ "Unsigned transfers (*)"]
 
         onAccepted: {
@@ -589,7 +589,7 @@ Rectangle {
     FileDialog {
         id: submitTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" +moneroAccountsDir
+        folder: "file://" +electroneumAccountsDir
         nameFilters: [ "signed transfers (*)"]
 
         onAccepted: {

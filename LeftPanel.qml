@@ -28,7 +28,7 @@
 
 import QtQuick 2.2
 import QtGraphicalEffects 1.0
-import moneroComponents.Wallet 1.0
+import electroneumComponents.Wallet 1.0
 import "components"
 
 Rectangle {
@@ -73,7 +73,7 @@ Rectangle {
     anchors.bottom: parent.bottom
     anchors.top: parent.top
 
-    // Item with monero logo
+    // Item with electroneum logo
     Item {
         visible: !isMobile
         id: logoItem
@@ -87,7 +87,7 @@ Rectangle {
             id: logo
             anchors.left: parent.left
             anchors.leftMargin: 50
-            source: "images/moneroLogo.png"
+            source: "images/electroneumLogo.png"
         }
 
         Text {
