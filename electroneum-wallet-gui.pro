@@ -255,8 +255,7 @@ linux {
 
     if(!android) {
         LIBS+= \
-            -Wl,-Bdynamic \
-            -lGL
+            -Wl,-Bdynamic
     }
     # currently electroneum has an issue with "static" build and linunwind-dev,
     # so we link libunwind-dev only for non-Ubuntu distros

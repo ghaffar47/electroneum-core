@@ -186,7 +186,7 @@ ColumnLayout {
                 opacity: remoteNode.checked
                 id: remoteNodeEdit
                 daemonAddrText: persistentSettings.remoteNodeAddress.split(":")[0].trim()
-                daemonPortText: (persistentSettings.remoteNodeAddress.split(":")[1].trim() == "") ? "18081" : persistentSettings.remoteNodeAddress.split(":")[1]
+                daemonPortText: (persistentSettings.remoteNodeAddress.split(":")[1].trim() == "") ? "26968" : persistentSettings.remoteNodeAddress.split(":")[1]
             }
         }
     }
