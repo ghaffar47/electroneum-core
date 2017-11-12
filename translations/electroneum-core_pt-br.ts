@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Electroneum daemon in %1 seconds</source>
-        <translation>Iniciando daemon do Electroneum em %1 segundos</translation>
+        <source>Starting Monero daemon in %1 seconds</source>
+        <translation>Iniciando daemon do Monero em %1 segundos</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Electroneum network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Electroneum. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minerar com seu computador ajuda a fortalecer a rede do Electroneum. Quanto mais pessoas minerarem, mais difícil é para a rede ser atacada, qualquer quantidade ajuda. &lt;br&gt; &lt;br&gt;Minerar também lhe garante uma pequena chance de ganhar Electroneum. Seu computador irá criar hashes procurando por blocos. Caso encontre um bloco, você receberá a recompensa associada. Boa sorte!</translation>
+        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minerar com seu computador ajuda a fortalecer a rede do Monero. Quanto mais pessoas minerarem, mais difícil é para a rede ser atacada, qualquer quantidade ajuda. &lt;br&gt; &lt;br&gt;Minerar também lhe garante uma pequena chance de ganhar Monero. Seu computador irá criar hashes procurando por blocos. Caso encontre um bloco, você receberá a recompensa associada. Boa sorte!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -943,8 +943,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Electroneum version: </source>
-        <translation>Versão do Electroneum integrada: </translation>
+        <source>Embedded Monero version: </source>
+        <translation>Versão do Monero integrada: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1574,13 +1574,13 @@ Por favor atualize ou conecte outro daemon</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Electroneum preferences</source>
+        <source>We’re almost there - let’s just configure some Monero preferences</source>
         <translation>Estamos quase terminando - vamos configurar algumas preferências</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Electroneum blockchain?</source>
-        <translation>Iniciar a blockchain do Electroneum?</translation>
+        <source>Kickstart the Monero blockchain?</source>
+        <translation>Iniciar a blockchain do Monero?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1594,8 +1594,8 @@ Por favor atualize ou conecte outro daemon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Electroneum instance. However, storing the full blockchain is beneficial to the security of the Electroneum network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Modo de conservação de espaço no disco usa menos espaço em disco porém a mesma quantidade de banda que o modo normal. Armazenar a blockchain completa ajuda a proteger a rede do Electroneum. Caso esteja em um dispositivo com espaço em disco limitado, esta opção é para você.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Modo de conservação de espaço no disco usa menos espaço em disco porém a mesma quantidade de banda que o modo normal. Armazenar a blockchain completa ajuda a proteger a rede do Monero. Caso esteja em um dispositivo com espaço em disco limitado, esta opção é para você.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1604,8 +1604,8 @@ Por favor atualize ou conecte outro daemon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>A mineração protege a rede do Electroneum e gratifica o minerador com uma pequena quantidade de Electroneum pelo trabalho feito. Esta opção fará com que seu computador seja utilizado para minerar Electroneum quando estive ocioso. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
+        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>A mineração protege a rede do Monero e gratifica o minerador com uma pequena quantidade de Monero pelo trabalho feito. Esta opção fará com que seu computador seja utilizado para minerar Monero quando estive ocioso. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
     </message>
 </context>
 <context>
@@ -1628,8 +1628,8 @@ Por favor atualize ou conecte outro daemon</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Electroneum development is solely supported by donations</source>
-        <translation>O desenvolvimento do Electroneum é suportado através de doações</translation>
+        <source>Monero development is solely supported by donations</source>
+        <translation>O desenvolvimento do Monero é suportado através de doações</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1643,8 +1643,8 @@ Por favor atualize ou conecte outro daemon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Electroneum development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Electroneum development.</source>
-        <translation>Para cada transação uma pequena taxa é coletada. Esta opção permite você adicionar uma quantidade adicional como porcentagem desta taxa para ajudar o desenvolvimento do Electroneum. Por exemplo, 50% de auto-doação em uma taxa de transferência de 0.005 XMR adicionará 0.0025 XMR a taxa para ajudar o desenvolvimento do Electroneum.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <translation>Para cada transação uma pequena taxa é coletada. Esta opção permite você adicionar uma quantidade adicional como porcentagem desta taxa para ajudar o desenvolvimento do Monero. Por exemplo, 50% de auto-doação em uma taxa de transferência de 0.005 XMR adicionará 0.0025 XMR a taxa para ajudar o desenvolvimento do Monero.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1653,8 +1653,8 @@ Por favor atualize ou conecte outro daemon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>A mineração protege a rede do Electroneum e gratifica o minerador com uma pequena quantidade de Electroneum pelo trabalho feito. Esta opção fará com que seu computador seja utilizado para minerar Electroneum quando estive ocioso. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
+        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>A mineração protege a rede do Monero e gratifica o minerador com uma pequena quantidade de Monero pelo trabalho feito. Esta opção fará com que seu computador seja utilizado para minerar Monero quando estive ocioso. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
     </message>
 </context>
 <context>
@@ -1834,8 +1834,8 @@ Por favor atualize ou conecte outro daemon</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Electroneum!</source>
-        <translation>Bem-vindo ao Electroneum!</translation>
+        <source>Welcome to Monero!</source>
+        <translation>Bem-vindo ao Monero!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1909,8 +1909,8 @@ Por favor atualize ou conecte outro daemon</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Electroneum!</source>
-        <translation>Bem-vindo ao Electroneum!</translation>
+        <source>Welcome to Monero!</source>
+        <translation>Bem-vindo ao Monero!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2068,7 +2068,7 @@ Ringsize: </translation>
     <message>
         <location filename="../main.qml" line="1355"/>
         <source>New version of electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova versão da GUI do Electroneum disponível: %1&lt;br&gt;</translation>
+        <translation>Nova versão da GUI do Monero disponível: %1&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2153,8 +2153,8 @@ Descrição: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Electroneum</source>
-        <translation>Electroneum</translation>
+        <source>Monero</source>
+        <translation>Monero</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

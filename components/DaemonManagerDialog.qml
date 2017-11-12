@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Electroneum Project
+// Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
 //
@@ -33,7 +33,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as ElectroneumComponents
+import "../components" as MoneroComponents
 
 Window {
     id: root
@@ -104,7 +104,7 @@ Window {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
 
-            ElectroneumComponents.StandardButton {
+            MoneroComponents.StandardButton {
                 id: okButton
                 visible:false
                 fontSize: 14
@@ -122,7 +122,7 @@ Window {
                 }
             }
 
-            ElectroneumComponents.StandardButton {
+            MoneroComponents.StandardButton {
                 id: cancelButton
                 fontSize: 14
                 shadowReleasedColor: "#FF4304"

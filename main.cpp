@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Electroneum Project
+// Copyright (c) 2014-2015, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -65,7 +65,7 @@
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
     // Send all message types to logger
-    Electroneum::Wallet::debug(msg.toStdString());
+    Monero::Wallet::debug(msg.toStdString());
 }
 
 int main(int argc, char *argv[])
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Electroneum::Wallet::init(argv[0], "electroneum-wallet-gui");
+    Monero::Wallet::init(argv[0], "electroneum-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
@@ -165,8 +165,8 @@ int main(int argc, char *argv[])
 //  export to QML electroneum accounts root directory
 //  wizard is talking about where
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
-//  backups - I reckon we save that in My Documents\Electroneum Accounts\ on
-//  Windows, ~/Electroneum Accounts/ on nix / osx
+//  backups - I reckon we save that in My Documents\Monero Accounts\ on
+//  Windows, ~/Monero Accounts/ on nix / osx
     bool isWindows = false;
     bool isIOS = false;
     bool isMac = false;
@@ -221,7 +221,7 @@ int main(int argc, char *argv[])
 
 
     if (!electroneumAccountsRootDir.empty()) {
-        QString electroneumAccountsDir = electroneumAccountsRootDir.at(0) + "/Electroneum/wallets";
+        QString electroneumAccountsDir = electroneumAccountsRootDir.at(0) + "/Monero/wallets";
         engine.rootContext()->setContextProperty("electroneumAccountsDir", electroneumAccountsDir);
     }
 

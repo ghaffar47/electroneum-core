@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Electroneum Project
+// Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
 //
@@ -33,7 +33,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as ElectroneumComponents
+import "../components" as MoneroComponents
 
 Window {
     id: root
@@ -106,7 +106,7 @@ Window {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
 
-            ElectroneumComponents.StandardButton {
+            MoneroComponents.StandardButton {
                 id: okButton
                 width: 120
                 fontSize: 14
@@ -122,7 +122,7 @@ Window {
                 }
             }
 
-            ElectroneumComponents.LineEdit {
+            MoneroComponents.LineEdit {
                 id: sendCommandText
                 width: 300
                 placeholderText: qsTr("command + enter (e.g help)") + translationManager.emptyString
@@ -134,7 +134,7 @@ Window {
             }
 
             // Status button
-//            ElectroneumComponents.StandardButton {
+//            MoneroComponents.StandardButton {
 //                id: sendCommandButton
 //                enabled: sendCommandText.text.length > 0
 //                fontSize: 14

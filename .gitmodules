@@ -2,3 +2,7 @@
 	path = electroneum
 	url = https://github.com/electroneum/electroneum
 	ignore = all
+[submodule "electroneum2"]
+	path = electroneum
+	url = https://github.com/electroneum/electroneum.git
+	branch = release-v0.11.0.0
