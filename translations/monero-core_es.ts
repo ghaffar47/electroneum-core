@@ -1738,8 +1738,8 @@ Por favor, actualice o conéctese a otro daemon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>USE MONERO</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>USE ELECTRONEUM</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>

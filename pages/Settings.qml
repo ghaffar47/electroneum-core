@@ -488,7 +488,7 @@ Rectangle {
         TextBlock {
             id: guiElectroneumVersion
             Layout.fillWidth: true
-            text: qsTr("Embedded Electroneum version: ") + Version.GUI_MONERO_VERSION + translationManager.emptyString
+            text: qsTr("Embedded Electroneum version: ") + Version.GUI_ELECTRONEUM_VERSION + translationManager.emptyString
         }
         TextBlock {
             id: restoreHeightText

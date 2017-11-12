@@ -1738,8 +1738,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>FOLOSEȘTE MONERO</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>FOLOSEȘTE ELECTRONEUM</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>

@@ -1748,8 +1748,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>使用 MONERO</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>使用 ELECTRONEUM</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>

@@ -1741,8 +1741,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>ANVÄND MONERO</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>ANVÄND ELECTRONEUM</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="184"/>

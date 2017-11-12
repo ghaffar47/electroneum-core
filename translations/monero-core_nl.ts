@@ -1740,8 +1740,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>GEBRUIK MONERO</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>GEBRUIK ELECTRONEUM</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>

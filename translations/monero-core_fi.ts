@@ -1733,8 +1733,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>KÄYTÄ MONEROA</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>KÄYTÄ ELECTRONEUMA</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>

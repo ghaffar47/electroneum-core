@@ -1730,8 +1730,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>USA MONERO</translation>
+        <source>USE ELECTRONEUM</source>
+        <translation>USA ELECTRONEUM</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>

@@ -1738,7 +1738,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
+        <source>USE ELECTRONEUM</source>
         <translation>모네로 사용하기</translation>
     </message>
     <message>
