@@ -1,0 +1,4 @@
+[submodule "electroneum"]
+	path = electroneum
+	url = https://github.com/electroneum/electroneum.git
+	branch = master
