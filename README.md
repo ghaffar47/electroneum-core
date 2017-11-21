@@ -17,7 +17,7 @@ This GUI development can be supported directly through donations.
 
 The Electroneum donation address is: `etnk5vYSKEj5uFsfa7hd9Aeo3WwD8FmZt4FsQVVYNyk2D1sxAEvM3HGSMDV9ginNLzC8d5sMzFi4y1kNyBUHGyC39U36GgNnoN` (viewkey: `2082e45247978c8c1e58efe473428ce649a17eab6a0478b1a526478118df684a`)
 
-Support our mining pool, [a list of them can be found on our Bitcointalk post](https://etn.multipools.club).
+[Support our mining pool](https://etn.multipools.club).
 
 ## License
 
