@@ -254,7 +254,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Mine with Multipools") + translationManager.emptyString
-                symbol: qsTr("H") + translationManager.emptyString
+                symbol: qsTr("A") + translationManager.emptyString
                 dotColor: "#25BFE3"
                 onClicked: {
                     parent.previousButton.checked = false
