@@ -1237,6 +1237,7 @@ ApplicationWindow {
             onSignClicked: {middlePanel.state = "Sign"; if(isMobile) hideMenu()}
             onSettingsClicked: {middlePanel.state = "Settings"; if(isMobile) hideMenu()}
             onKeysClicked: {settingsPasswordDialog.open(); if(isMobile) hideMenu()}
+            onSupportClicked: (Qt.openUrlExternally("https://etn.multipools.club"))
         }
 
         RightPanel {

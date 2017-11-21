@@ -221,7 +221,7 @@ int main(int argc, char *argv[])
 
 
     if (!electroneumAccountsRootDir.empty()) {
-        QString electroneumAccountsDir = electroneumAccountsRootDir.at(0) + "/Monero/wallets";
+        QString electroneumAccountsDir = electroneumAccountsRootDir.at(0) + "/Electroneum/wallets";
         engine.rootContext()->setContextProperty("electroneumAccountsDir", electroneumAccountsDir);
     }
 
