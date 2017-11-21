@@ -146,10 +146,10 @@ Rectangle {
                     id: startSoloMinerButton
                     width: 110
                     text: qsTr("Start mining") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
+                    shadowReleasedColor: "#000080"
                     shadowPressedColor: "#B32D00"
                     releasedColor: "#25BFE3"
-                    pressedColor: "#FF4304"
+                    pressedColor: "#000080"
                     onClicked: {
                         var success = walletManager.startMining(appWindow.currentWallet.address, soloMinerThreadsLine.text, persistentSettings.allow_background_mining, persistentSettings.miningIgnoreBattery)
                         if (success) {
@@ -171,10 +171,10 @@ Rectangle {
                     id: stopSoloMinerButton
                     width: 110
                     text: qsTr("Stop mining") + translationManager.emptyString
-                    shadowReleasedColor: "#FF4304"
+                    shadowReleasedColor: "#000080"
                     shadowPressedColor: "#B32D00"
                     releasedColor: "#25BFE3"
-                    pressedColor: "#FF4304"
+                    pressedColor: "#000080"
                     onClicked: {
                         walletManager.stopMining()
                         update()

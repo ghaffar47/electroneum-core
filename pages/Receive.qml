@@ -246,10 +246,10 @@ Rectangle {
 
             StandardButton {
                 id: generatePaymentId
-                shadowReleasedColor: "#FF4304"
+                shadowReleasedColor: "#000080"
                 shadowPressedColor: "#B32D00"
                 releasedColor: "#25BFE3"
-                pressedColor: "#FF4304"
+                pressedColor: "#000080"
                 text: qsTr("Generate") + translationManager.emptyString;
                 onClicked: updatePaymentId()
             }
@@ -257,10 +257,10 @@ Rectangle {
             StandardButton {
                 id: clearPaymentId
                 enabled: !!paymentIdLine.text
-                shadowReleasedColor: "#FF4304"
+                shadowReleasedColor: "#000080"
                 shadowPressedColor: "#B32D00"
                 releasedColor: "#25BFE3"
-                pressedColor: "#FF4304"
+                pressedColor: "#000080"
                 text: qsTr("Clear") + translationManager.emptyString;
                 onClicked: updatePaymentId("")
             }

@@ -221,9 +221,9 @@ Item {
             anchors.margins: 6
             width: 80
 
-            shadowReleasedColor: "#C60F00"
-            shadowPressedColor: "#8C0B00"
-            pressedColor: "#C60F00"
+            shadowReleasedColor: "#000099"
+            shadowPressedColor: "#000080"
+            pressedColor: "#000099"
             releasedColor: "#0063FF"
             text: qsTr("SEARCH")
             onClicked: item.searchClicked(input.text, droplist.currentOption)

@@ -87,10 +87,10 @@ Rectangle {
             id: sendButton
             width: 60
             text: qsTr("SEND")
-            shadowReleasedColor: "#FF4304"
+            shadowReleasedColor: "#000080"
             shadowPressedColor: "#B32D00"
             releasedColor: "#25BFE3"
-            pressedColor: "#FF4304"
+            pressedColor: "#000080"
         }
 
         Text {

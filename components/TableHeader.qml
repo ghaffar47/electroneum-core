@@ -85,7 +85,7 @@ Rectangle {
                     font.pixelSize: 14
                     color: {
                         if(delegateArea.pressed)
-                            return "#FF4304"
+                            return "#000080"
                         return index === header.activeSortColumn || delegateArea.containsMouse ? "#25BFE3" : "#4A4949"
                     }
                     text: qsTr(columnName) + translationManager.emptyString
