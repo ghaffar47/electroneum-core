@@ -1,76 +1,34 @@
-# Monero GUI
+# Electroneum GUI
 
-Copyright (c) 2014-2017, The Monero Project
+Copyleft (c) 2017-Whatever, Me?
 
-## Development Resources
-
-- Web: [getelectroneum.org](https://getelectroneum.org)
-- Forum: [forum.getelectroneum.org](https://forum.getelectroneum.org)
-- Mail: [dev@getelectroneum.org](mailto:dev@getelectroneum.org)
-- Github: [https://github.com/electroneum-project/electroneum-core](https://github.com/electroneum-project/electroneum-core)
-- IRC: [#electroneum-dev on Freenode](irc://chat.freenode.net/#electroneum-dev)
-
-## Vulnerability Response
-
-- Our [Vulnerability Response Process](https://github.com/electroneum-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/electroneum)
-
-## Introduction
-
-Monero is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
-
-**Privacy:** Monero uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
-
-**Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
-
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Monero is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## About this Project
 
-This is the GUI for the [core Monero implementation](https://github.com/electroneum-project/electroneum). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
+This is the GUI for the [core Electroneum implementation](https://github.com/electroneum-project/electroneum). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
-## Supporting the Project
+## Supporting the GUI Project
 
-Monero development can be supported directly through donations.
+This GUI development can be supported directly through donations.
 
-Both Monero and Bitcoin donations can be made to donate.getelectroneum.org if using a client that supports the [OpenAlias](https://openalias.org) standard
 
-The Monero donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
 
-The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
+The Electroneum donation address is: `etnk5vYSKEj5uFsfa7hd9Aeo3WwD8FmZt4FsQVVYNyk2D1sxAEvM3HGSMDV9ginNLzC8d5sMzFi4y1kNyBUHGyC39U36GgNnoN` (viewkey: `2082e45247978c8c1e58efe473428ce649a17eab6a0478b1a526478118df684a`)
 
-Core development funding and/or some supporting services are also graciously provided by sponsors:
-
-[<img width="80" src="https://static.getelectroneum.org/images/sponsors/myelectroneum.png"/>](https://myelectroneum.com)
-[<img width="150" src="https://static.getelectroneum.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
-[<img width="100" src="https://static.getelectroneum.org/images/sponsors/dome9.png"/>](http://dome9.com)
-[<img width="150" src="https://static.getelectroneum.org/images/sponsors/araxis.png"/>](http://araxis.com)
-[<img width="150" src="https://static.getelectroneum.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
-[<img width="150" src="https://static.getelectroneum.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
-[<img width="150" src="https://static.getelectroneum.org/images/sponsors/symas.png"/>](http://www.symas.com/)
-
-There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
+Support our mining pool, [a list of them can be found on our Bitcointalk post](https://etn.multipools.club).
 
 ## License
 
 See [LICENSE](LICENSE).
 
-## Installing Monero Core from a Package
 
-Packages are available for
-
-* Arch Linux via AUR: [electroneum-wallet-qt](https://aur.archlinux.org/packages/electroneum-wallet-qt/)
-* Void Linux: xbps-install -S electroneum-core
-
-Packaging for your favorite distribution would be a welcome contribution!
-
-## Compiling Monero Core from Source
+## Compiling Electroneum GUI Core from Source
 
 ### On Linux:
 
-(Tested on Ubuntu 16.04 x86, 16.10 x64, Gentoo x64 and Linux Mint 18 "Sarah" - Cinnamon x64)
+(Tested on Ubuntu 16.04 x64)
 
 1. Install Monero dependencies
 
@@ -84,7 +42,7 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 2. Grab an up-to-date copy of the electroneum-core repository
 
-	`git clone https://github.com/electroneum-project/electroneum-core.git`
+	`git clone https://github.com/tperalta82/electroneum-core.git`
 
 3. Go into the repository
 
@@ -92,43 +50,23 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 4. Install the GUI dependencies
 
-  - For Ubuntu 16.04 x86
-
-	`sudo apt-get install qtbase5-dev qt5-default qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-xmllistmodel qttools5-dev-tools qml-module-qtquick-dialogs`
-
   - For Ubuntu 16.04+ x64
 
     `sudo apt-get install qtbase5-dev qt5-default qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-xmllistmodel qttools5-dev-tools qml-module-qtquick-dialogs qml-module-qt-labs-settings libqt5qml-graphicaleffects`
 
-  - For Linux Mint 18 "Sarah" - Cinnamon x64
-
-    `sudo apt install qml-module-qt-labs-settings qml-module-qtgraphicaleffects`
-
-  - For Gentoo
-
-    `sudo emerge dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtquickcontrols:5 dev-qt/qtquickcontrols2:5 dev-qt/qtgraphicaleffects:5`
-
   - Optional : To build the flag `WITH_SCANNER`
 
-    - For Ubuntu and Mint
+    - For Ubuntu
 
       `sudo apt install qtmultimedia5-dev qml-module-qtmultimedia libzbar-dev`
-
-    - For Gentoo
-
-      The *qml* USE flag must be enabled.
-
-      `emerge dev-qt/qtmultimedia:5 media-gfx/zbar`
 
 5. Build the GUI
 
   - For Ubuntu and Mint
-
+  
+  `./get_libwallet_api.sh`
 	`./build.sh`
 
-  - For Gentoo
-
-    `QT_SELECT=5 ./build.sh`
 
 The executable can be found in the build/release/bin folder.
 
@@ -168,6 +106,7 @@ The executable can be found in the build/release/bin folder.
 
 8. Start the build
 
+  `./get_libwallet_api.sh`
   `./build.sh`
 
 The executable can be found in the `build/release/bin` folder.
