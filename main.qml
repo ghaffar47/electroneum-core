@@ -71,7 +71,7 @@ ApplicationWindow {
     property bool remoteNodeConnected: false
     property bool androidCloseTapped: false;
     // Default daemon addresses
-    readonly property string localDaemonAddress : !persistentSettings.testnet ? "localhost:18081" : "localhost:28081"
+    readonly property string localDaemonAddress : !persistentSettings.testnet ? "localhost:26968" : "localhost:36968"
     property string currentDaemonAddress;
     property bool startLocalNodeCancelled: false
 
@@ -1258,7 +1258,7 @@ ApplicationWindow {
             anchors.bottom: parent.bottom
             anchors.left: leftPanel.visible ?  leftPanel.right : parent.left
             anchors.right: parent.right
-            state: "Transfer"
+            state: "Support"
         }
 
         TipItem {
