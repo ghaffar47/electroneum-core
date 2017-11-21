@@ -71,7 +71,7 @@ Rectangle {
                 Layout.fillWidth: true;
                 id: addressLine
                 error: true;
-                placeholderText: qsTr("4...") + translationManager.emptyString
+                placeholderText: qsTr("etn") + translationManager.emptyString
             }
         }
 

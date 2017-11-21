@@ -399,7 +399,7 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.top: verifyAddressLabel.bottom
                 anchors.topMargin: 5 * scaleRatio
-                placeholderText: "4..."
+                placeholderText: "etn"
                 // validator: RegExpValidator { regExp: /[0-9A-Fa-f]{95}/g }
             }
 
