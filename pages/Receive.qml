@@ -248,7 +248,7 @@ Rectangle {
                 id: generatePaymentId
                 shadowReleasedColor: "#FF4304"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
+                releasedColor: "#25BFE3"
                 pressedColor: "#FF4304"
                 text: qsTr("Generate") + translationManager.emptyString;
                 onClicked: updatePaymentId()
@@ -259,7 +259,7 @@ Rectangle {
                 enabled: !!paymentIdLine.text
                 shadowReleasedColor: "#FF4304"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
+                releasedColor: "#25BFE3"
                 pressedColor: "#FF4304"
                 text: qsTr("Clear") + translationManager.emptyString;
                 onClicked: updatePaymentId("")
@@ -331,7 +331,7 @@ Rectangle {
             Label {
                 id: trackingLabel
                 textFormat: Text.RichText
-                text: qsTr("<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>\
+                text: qsTr("<style type='text/css'>a {text-decoration: none; color: #25BFE3; font-size: 14px;}</style>\
                            Tracking <font size='2'> (</font><a href='#'>help</a><font size='2'>)</font>")
                            + translationManager.emptyString
                 width: mainLayout.labelWidth

@@ -231,7 +231,7 @@ win32 {
 linux {
     CONFIG(static) {
         message("using static libraries")
-        LIBS+= -Wl,-Bstatic    
+        LIBS+= -Wl,-Bstatic
         QMAKE_LFLAGS += -static-libgcc -static-libstdc++
    #     contains(QT_ARCH, x86_64) {
             LIBS+= -lunbound
@@ -251,7 +251,7 @@ linux {
         -lboost_chrono \
         -lboost_program_options \
         -lssl \
-        -lcrypto
+        -lcrypto 
 
     if(!android) {
         LIBS+= \

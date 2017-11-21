@@ -85,7 +85,7 @@ popd
 echo "var GUI_ELECTRONEUM_VERSION = \"$TAGNAME\"" >> version.js
 
 cd build
-qmake ../electroneum-wallet-gui.pro "$CONFIG" || exit
+LIBS=-ldl qmake ../electroneum-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
 # Copy electroneumd to bin folder

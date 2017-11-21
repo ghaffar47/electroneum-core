@@ -216,7 +216,7 @@ Rectangle {
             text: qsTr("Check") + translationManager.emptyString
             shadowReleasedColor: "#FF4304"
             shadowPressedColor: "#B32D00"
-            releasedColor: "#FF6C3C"
+            releasedColor: "#25BFE3"
             pressedColor: "#FF4304"
             enabled: checkAddress(addressLine.text, appWindow.persistentSettings.testnet) && checkTxID(txIdLine.text) && checkTxKey(txKeyLine.text)
             onClicked: {

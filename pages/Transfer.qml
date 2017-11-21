@@ -41,7 +41,7 @@ Rectangle {
     signal sweepUnmixableClicked()
 
     color: "#F0EEEE"
-    property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style><font size='2'> (</font><a href='#'>Start daemon</a><font size='2'>)</font>") + translationManager.emptyString
+    property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #25BFE3; font-size: 14px;}</style><font size='2'> (</font><a href='#'>Start daemon</a><font size='2'>)</font>") + translationManager.emptyString
     property bool showAdvanced: false
 
     function scaleValueToMixinCount(scaleValue) {
@@ -161,7 +161,7 @@ Rectangle {
                       text: qsTr("All") + translationManager.emptyString
                       shadowReleasedColor: "#FF4304"
                       shadowPressedColor: "#B32D00"
-                      releasedColor: "#FF6C3C"
+                      releasedColor: "#25BFE3"
                       pressedColor: "#FF4304"
                       enabled : true
                       onClicked: amountLine.text = "(all)"
@@ -209,7 +209,7 @@ Rectangle {
                   id: priorityDropdown
                   shadowReleasedColor: "#FF4304"
                   shadowPressedColor: "#B32D00"
-                  releasedColor: "#FF6C3C"
+                  releasedColor: "#25BFE3"
                   pressedColor: "#FF4304"
               }
           }
@@ -222,7 +222,7 @@ Rectangle {
           Label {
               id: addressLabel
               textFormat: Text.RichText
-              text: qsTr("<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>\
+              text: qsTr("<style type='text/css'>a {text-decoration: none; color: #25BFE3; font-size: 14px;}</style>\
                           Address <font size='2'>  ( Paste in or select from </font> <a href='#'>Address book</a><font size='2'> )</font>")
                     + translationManager.emptyString
 
@@ -239,7 +239,7 @@ Rectangle {
                   text: qsTr("QR Code") + translationManager.emptyString
                   shadowReleasedColor: "#FF4304"
                   shadowPressedColor: "#B32D00"
-                  releasedColor: "#FF6C3C"
+                  releasedColor: "#25BFE3"
                   pressedColor: "#FF4304"
                   visible : appWindow.qrScannerEnabled
                   enabled : visible
@@ -263,7 +263,7 @@ Rectangle {
                   text: qsTr("Resolve") + translationManager.emptyString
                   shadowReleasedColor: "#FF4304"
                   shadowPressedColor: "#B32D00"
-                  releasedColor: "#FF6C3C"
+                  releasedColor: "#25BFE3"
                   pressedColor: "#FF4304"
                   enabled : isValidOpenAliasAddress(addressLine.text)
                   onClicked: {
@@ -330,7 +330,7 @@ Rectangle {
               text: qsTr("Send") + translationManager.emptyString
               shadowReleasedColor: "#FF4304"
               shadowPressedColor: "#B32D00"
-              releasedColor: "#FF6C3C"
+              releasedColor: "#25BFE3"
               pressedColor: "#FF4304"
               enabled : !appWindow.viewOnly && pageRoot.checkInformation(amountLine.text, addressLine.text, paymentIdLine.text, appWindow.persistentSettings.testnet)
               onClicked: {
@@ -458,7 +458,7 @@ Rectangle {
                 text: qsTr("Sweep Unmixable") + translationManager.emptyString
                 shadowReleasedColor: "#FF4304"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
+                releasedColor: "#25BFE3"
                 pressedColor: "#FF4304"
                 enabled : pageRoot.enabled
                 onClicked: {
@@ -472,7 +472,7 @@ Rectangle {
                 text: qsTr("Create tx file") + translationManager.emptyString
                 shadowReleasedColor: "#FF4304"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
+                releasedColor: "#25BFE3"
                 pressedColor: "#FF4304"
                 visible: appWindow.viewOnly
                 enabled: pageRoot.checkInformation(amountLine.text, addressLine.text, paymentIdLine.text, appWindow.persistentSettings.testnet)
@@ -494,7 +494,7 @@ Rectangle {
                 text: qsTr("Sign tx file") + translationManager.emptyString
                 shadowReleasedColor: "#FF4304"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
+                releasedColor: "#25BFE3"
                 pressedColor: "#FF4304"
                 visible: !appWindow.viewOnly
                 onClicked: {
@@ -508,7 +508,7 @@ Rectangle {
                 text: qsTr("Submit tx file") + translationManager.emptyString
                 shadowReleasedColor: "#FF4304"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
+                releasedColor: "#25BFE3"
                 pressedColor: "#FF4304"
                 visible: appWindow.viewOnly
                 enabled: pageRoot.enabled
