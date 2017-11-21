@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
     qDebug() << "app startd";
 
     app.setApplicationName("electroneum-core");
-    app.setOrganizationDomain("getelectroneum.org");
+    app.setOrganizationDomain("electroneum.com");
     app.setOrganizationName("electroneum-project");
 
     filter *eventFilter = new filter;
