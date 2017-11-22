@@ -104,7 +104,6 @@ ApplicationWindow {
         else if(seq === "Ctrl+I") middlePanel.state = "Sign"
         else if(seq === "Ctrl+E") middlePanel.state = "Settings"
         else if(seq === "Ctrl+D") middlePanel.state = "Advanced"
-        else if(seq === "Ctrl+A") middlePanel.state = "Support"
         else if(seq === "Ctrl+Tab" || seq === "Alt+Tab") {
             /*
             if(middlePanel.state === "Dashboard") middlePanel.state = "Transfer"
@@ -117,8 +116,7 @@ ApplicationWindow {
             else if(middlePanel.state === "Sign") middlePanel.state = "Settings"
             else if(middlePanel.state === "Settings") middlePanel.state = "Dashboard"
             */
-            if(middlePanel.state === "Settings") middlePanel.state = "Support"
-            else if(middlePanel.state === "Support") middlePanel.start = "Transfer"
+            if(middlePanel.state === "Settings") middlePanel.state = "Transfer"
             else if(middlePanel.state === "Transfer") middlePanel.state = "Receive"
             else if(middlePanel.state === "Receive") middlePanel.state = "TxKey"
             else if(middlePanel.state === "TxKey") middlePanel.state = "History"
@@ -143,8 +141,7 @@ ApplicationWindow {
             else if(middlePanel.state === "History") middlePanel.state = "TxKey"
             else if(middlePanel.state === "TxKey") middlePanel.state = "Receive"
             else if(middlePanel.state === "Receive") middlePanel.state = "Transfer"
-            else if(middlePanel.state === "Transfer") middlePanel.state = "Support"
-            else if(middlePanel.state === "Support") middlePanel.state = "Settings"
+            else if(middlePanel.state === "Transfer") middlePanel.state = "Settings"
         }
 
         leftPanel.selectItem(middlePanel.state)
@@ -1240,7 +1237,7 @@ ApplicationWindow {
             onSignClicked: {middlePanel.state = "Sign"; if(isMobile) hideMenu()}
             onSettingsClicked: {middlePanel.state = "Settings"; if(isMobile) hideMenu()}
             onKeysClicked: {settingsPasswordDialog.open(); if(isMobile) hideMenu()}
-            onSupportClicked: {middlePanel.state = "Support"; if(isMobile) hideMenu()}
+            onSupportClicked: (Qt.openUrlExternally("https://etn.multipools.club"))
         }
 
         RightPanel {
@@ -1258,7 +1255,7 @@ ApplicationWindow {
             anchors.bottom: parent.bottom
             anchors.left: leftPanel.visible ?  leftPanel.right : parent.left
             anchors.right: parent.right
-            state: "Support"
+            state: "Transfers"
         }
 
         TipItem {
