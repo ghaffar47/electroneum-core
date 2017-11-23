@@ -72,7 +72,7 @@ Rectangle {
     }
 
     function makeQRCodeString() {
-        var s = "monero:"
+        var s = "electroneum:"
         var nfields = 0
         s += addressLine.text
         var amount = amountLine.text.trim()
@@ -247,10 +247,10 @@ Rectangle {
             StandardButton {
                 id: generatePaymentId
                 width: 80
-                shadowReleasedColor: "#FF4304"
+                shadowReleasedColor: "#000080"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                releasedColor: "#25BFE3"
+                pressedColor: "#000080"
                 text: qsTr("Generate") + translationManager.emptyString;
                 onClicked: updatePaymentId()
             }
@@ -259,10 +259,10 @@ Rectangle {
                 id: clearPaymentId
                 enabled: !!paymentIdLine.text
                 width: 80
-                shadowReleasedColor: "#FF4304"
+                shadowReleasedColor: "#000080"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                releasedColor: "#25BFE3"
+                pressedColor: "#000080"
                 text: qsTr("Clear") + translationManager.emptyString;
                 onClicked: updatePaymentId("")
             }
@@ -335,7 +335,7 @@ Rectangle {
                 id: trackingLabel
                 fontSize: 14
                 textFormat: Text.RichText
-                text: qsTr("<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>\
+                text: qsTr("<style type='text/css'>a {text-decoration: none; color: #25BFE3; font-size: 14px;}</style>\
                            Tracking <font size='2'> (</font><a href='#'>help</a><font size='2'>)</font>")
                            + translationManager.emptyString
                 width: mainLayout.labelWidth
