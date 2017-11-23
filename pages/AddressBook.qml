@@ -69,10 +69,10 @@ Rectangle {
         anchors.topMargin: 5
         anchors.top: addressLabel.bottom
         text: qsTr("QRCODE") + translationManager.emptyString
-        shadowReleasedColor: "#FF4304"
+        shadowReleasedColor: "#000080"
         shadowPressedColor: "#B32D00"
-        releasedColor: "#FF6C3C"
-        pressedColor: "#FF4304"
+        releasedColor: "#25BFE3"
+        pressedColor: "#000080"
         visible : appWindow.qrScannerEnabled
         enabled : visible
         width: visible ? 60 : 0
@@ -144,10 +144,10 @@ Rectangle {
         anchors.topMargin: 17
 
         StandardButton {
-            shadowReleasedColor: "#FF4304"
+            shadowReleasedColor: "#000080"
             shadowPressedColor: "#B32D00"
-            releasedColor: "#FF6C3C"
-            pressedColor: "#FF4304"
+            releasedColor: "#25BFE3"
+            pressedColor: "#000080"
             text: qsTr("Add") + translationManager.emptyString
             enabled: checkInformation(addressLine.text, paymentIdLine.text, appWindow.persistentSettings.testnet)
 

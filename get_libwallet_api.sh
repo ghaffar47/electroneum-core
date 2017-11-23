@@ -13,7 +13,7 @@ BUILD_LIBWALLET=false
 
 # init and update monero submodule
 if [ ! -d $MONERO_DIR/src ]; then
-    git submodule init monero
+    git submodule init electroneum
 fi
 git submodule update --remote
 git -C $MONERO_DIR fetch
@@ -61,7 +61,7 @@ else
         echo "Building new libwallet version $GUI_MONERO_VERSION"
         BUILD_LIBWALLET=true
     else
-        echo "latest libwallet ($GUI_MONERO_VERSION) is already built. Remove monero/lib/libwallet_merged.a to force rebuild"
+        echo "latest libwallet ($GUI_MONERO_VERSION) is already built. Remove electroneum/lib/libwallet_merged.a to force rebuild"
     fi
 fi
 

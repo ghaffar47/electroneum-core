@@ -103,10 +103,10 @@ ListView {
             anchors.topMargin: parent.height/2 - this.height/2
             width: 80
             fontSize: 14
-            shadowReleasedColor: "#FF4304"
+            shadowReleasedColor: "#000080"
             shadowPressedColor: "#B32D00"
-            releasedColor: "#FF6C3C"
-            pressedColor: "#FF4304"
+            releasedColor: "#25BFE3"
+            pressedColor: "#000080"
             text: qsTr("Details")
             onClicked: {
                 var tx_key = currentWallet.getTxKey(hash)
@@ -132,7 +132,7 @@ ListView {
                 width: 14
                 height: width
                 radius: width / 2
-                color: isOut ? "#FF4F41" : "#36B05B"
+                color: isOut ? "#0063FF" : "#36B05B"
             }
 
             Item { //separator
@@ -259,7 +259,7 @@ ListView {
                 //elide: Text.ElideRight
                 font.family: "Arial"
                 font.pixelSize: 13
-                color:  (confirmations < confirmationsRequired)? "#FF6C3C" : "#545454"
+                color:  (confirmations < confirmationsRequired)? "#25BFE3" : "#545454"
                 text: {
                     if (!isPending)
                         if(confirmations < confirmationsRequired)
@@ -364,7 +364,7 @@ ListView {
                         anchors.bottomMargin: 3
                         font.family: "Arial"
                         font.pixelSize: 16
-                        color: isOut ? "#FF4F41" : "#36B05B"
+                        color: isOut ? "#0063FF" : "#36B05B"
                         text: isOut ? "↓" : "↑"
                     }
 
@@ -373,7 +373,7 @@ ListView {
                         anchors.bottom: parent.bottom
                         font.family: "Arial"
                         font.pixelSize: 18
-                        color: isOut ? "#FF4F41" : "#36B05B"
+                        color: isOut ? "#0063FF" : "#36B05B"
                         text:  displayAmount
                     }
                 }
@@ -398,7 +398,7 @@ ListView {
                         anchors.bottom: parent.bottom
                         font.family: "Arial"
                         font.pixelSize: 18
-                        color: "#FF4F41"
+                        color: "#0063FF"
                         text:  fee
                     }
                 }
