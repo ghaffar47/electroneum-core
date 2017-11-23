@@ -73,7 +73,7 @@ fi
 if [ "$platform" == "darwin" ]; then
     BIN_PATH=$BIN_PATH/monero-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    MONEROD_EXEC=monerod.exe
+    MONEROD_EXEC=electroneumd.exe
 fi
 
 # force version update
@@ -88,7 +88,7 @@ cd build
 qmake ../electroneum-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
-# Copy monerod to bin folder
+# Copy electroneumd to bin folder
 if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
 cp ../$MONERO_DIR/bin/$MONEROD_EXEC $BIN_PATH
 fi
