@@ -84,7 +84,7 @@ Rectangle {
             id: logo
             anchors.left: parent.left
             anchors.leftMargin: 50
-            source: "images/moneroLogo.png"
+            source: "images/electroneumLogo.png"
         }
 
         Text {
