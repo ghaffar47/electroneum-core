@@ -2,3 +2,7 @@
 	path = monero
 	url = https://github.com/monero-project/monero
 	ignore = all
+[submodule "electroneum"]
+	path = electroneum
+	url = https://github.com/electroneum/electroneum.git
+	branch = master

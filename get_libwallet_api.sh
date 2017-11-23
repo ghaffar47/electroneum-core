@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/monero-project/monero.git
+MONERO_URL=https://github.com/electroneum/electroneum.git
 MONERO_BRANCH=master
 
 pushd $(pwd)
@@ -8,7 +8,7 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $ROOT_DIR/utils.sh
 
 INSTALL_DIR=$ROOT_DIR/wallet
-MONERO_DIR=$ROOT_DIR/monero
+MONERO_DIR=$ROOT_DIR/electroneum
 BUILD_LIBWALLET=false
 
 # init and update monero submodule
@@ -17,7 +17,7 @@ if [ ! -d $MONERO_DIR/src ]; then
 fi
 git submodule update --remote
 git -C $MONERO_DIR fetch
-git -C $MONERO_DIR checkout release-v0.11.0.0
+git -C $MONERO_DIR checkout master
 
 # get monero core tag
 get_tag
@@ -30,16 +30,10 @@ git -C $MONERO_DIR checkout -B $VERSIONTAG
 # Save current user settings and revert back when we are done with merging PR's
 OLD_GIT_USER=$(git -C $MONERO_DIR config --local user.name)
 OLD_GIT_EMAIL=$(git -C $MONERO_DIR config --local user.email)
-git -C $MONERO_DIR config user.name "Monero GUI"
-git -C $MONERO_DIR config user.email "gui@monero.local"
+git -C $MONERO_DIR config user.name "Electroneum GUI"
+git -C $MONERO_DIR config user.email "gui@electroneum.local"
 # check for PR requirements in most recent commit message (i.e requires #xxxx)
-for PR in $(git log --format=%B -n 1 | grep -io "requires #[0-9]*" | sed 's/[^0-9]*//g'); do
-    echo "Merging monero push request #$PR"
-    # fetch pull request and merge
-    git -C $MONERO_DIR fetch origin pull/$PR/head:PR-$PR
-    git -C $MONERO_DIR merge --quiet PR-$PR  -m "Merge monero PR #$PR"
-    BUILD_LIBWALLET=true
-done
+BUILD_LIBWALLET=true
 
 # revert back to old git config
 $(git -C $MONERO_DIR config user.name "$OLD_GIT_USER")
