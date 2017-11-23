@@ -42,7 +42,7 @@ import "wizard"
 
 ApplicationWindow {
     id: appWindow
-    title: "Monero"
+    title: "ETN / Multipools Community Wallet"
 
     property var currentItem
     property bool whatIsEnable: false
@@ -442,7 +442,7 @@ ApplicationWindow {
         currentWallet.startRefresh();
         daemonRunning = false;
         informationPopup.title = qsTr("Daemon failed to start") + translationManager.emptyString;
-        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "monerod.exe" : "monerod")
+        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "electroneumd.exe" : "electroneumd")
         informationPopup.icon  = StandardIcon.Critical
         informationPopup.onCloseCallback = null
         informationPopup.open();
@@ -726,12 +726,12 @@ ApplicationWindow {
             if (received > 0) {
                 received = received / 1e12
                 if (height == 0) {
-                    informationPopup.text = qsTr("This address received %1 monero, but the transaction is not yet mined").arg(received);
+                    informationPopup.text = qsTr("This address received %1 electroneum, but the transaction is not yet mined").arg(received);
                 }
                 else {
                     var dCurrentBlock = currentWallet.daemonBlockChainHeight();
                     var confirmations = dCurrentBlock - height
-                    informationPopup.text = qsTr("This address received %1 monero, with %2 confirmation(s).").arg(received).arg(confirmations);
+                    informationPopup.text = qsTr("This address received %1 electroneum, with %2 confirmation(s).").arg(received).arg(confirmations);
                 }
             }
             else {
@@ -1042,7 +1042,7 @@ ApplicationWindow {
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: true }
 //                PropertyChanges { target: titleBar; y: 0 }
-                PropertyChanges { target: titleBar; title: qsTr("Monero") + translationManager.emptyString }
+                PropertyChanges { target: titleBar; title: qsTr("electroneum") + translationManager.emptyString }
             }
         ]
 
@@ -1379,7 +1379,7 @@ ApplicationWindow {
           var hash = parts[1]
           var user_url = parts[2]
           var auto_url = parts[3]
-          var msg = qsTr("New version of monero-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
+          var msg = qsTr("New version of electroneum-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
           notifier.show(msg)
         }
         else {
@@ -1388,7 +1388,7 @@ ApplicationWindow {
     }
 
     function checkUpdates() {
-        walletManager.checkUpdatesAsync("monero-gui", "gui")
+        walletManager.checkUpdatesAsync("electroneum-gui", "gui")
     }
 
     Timer {

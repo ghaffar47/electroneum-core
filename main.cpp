@@ -75,16 +75,16 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Monero::Wallet::init(argv[0], "monero-wallet-gui");
+    Monero::Wallet::init(argv[0], "electroneum-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
 
     qDebug() << "app startd";
 
-    app.setApplicationName("monero-core");
-    app.setOrganizationDomain("getmonero.org");
-    app.setOrganizationName("monero-project");
+    app.setApplicationName("electroneum-core");
+    app.setOrganizationDomain("electroneum.com");
+    app.setOrganizationName("electroneum");
 
     filter *eventFilter = new filter;
     app.installEventFilter(eventFilter);
@@ -185,7 +185,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("isIOS", isIOS);
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Monero/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Electroneum/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 
@@ -196,7 +196,7 @@ int main(int argc, char *argv[])
         accountName = qgetenv("USERNAME"); // Windows
     }
     if (accountName.isEmpty()) {
-        accountName = "My monero Account";
+        accountName = "My Electroneum Account";
     }
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
