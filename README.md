@@ -177,6 +177,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
     ```
     cd electroneum-core
     export PATH=$(ls -rd /c/Qt/5.[6,7,8,9].2/mingw53_32/bin | head -1):$PATH
+    export CC=gcc
     git checkout windows-supportlink
     ./build.sh
     ./windows
