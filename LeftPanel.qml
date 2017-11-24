@@ -50,10 +50,12 @@ Rectangle {
     signal addressBookClicked()
     signal miningClicked()
     signal signClicked()
+    signal supportClicked()
 
     function selectItem(pos) {
         menuColumn.previousButton.checked = false
         if(pos === "Dashboard") menuColumn.previousButton = dashboardButton
+        else if(pos === "Support") menuColumn.previousButton = supportButton
         else if(pos === "History") menuColumn.previousButton = historyButton
         else if(pos === "Transfer") menuColumn.previousButton = transferButton
         else if(pos === "Receive")  menuColumn.previousButton = receiveButton
@@ -240,7 +242,31 @@ Rectangle {
             anchors.right: parent.right
             anchors.top: parent.top
 
-            property var previousButton: transferButton
+            property var previousButton: supportButton
+             // ------------- Support Us tab ---------------
+ 
+             MenuButton {
+                 id: supportButton
+                 anchors.left: parent.left
+                 anchors.right: parent.right
+                 text: qsTr("Mine with Multipools") + translationManager.emptyString
+                 symbol: qsTr("T") + translationManager.emptyString
+                 dotColor: "#25BFE3"
+                 onClicked: {
+                     parent.previousButton.checked = false
+                     parent.previousButton = supportButton
+                     panel.supportClicked()
+                 }
+             }
+  
+             Rectangle {
+                 visible: supportButton.present
+                 anchors.left: parent.left
+                 anchors.right: parent.right
+                 anchors.leftMargin: 16
+                 color: "#505050"
+                 height: 1
+             }
 
             // ------------- Dashboard tab ---------------
 
