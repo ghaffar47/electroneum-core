@@ -20,6 +20,7 @@
         <file>pages/AddressBook.qml</file>
         <file>pages/Mining.qml</file>
         <file>pages/Settings.qml</file>
+        <file>pages/Support.qml</file>
         <file>components/NetworkStatusItem.qml</file>
         <file>images/statusConnected.png</file>
         <file>images/statusDisconnected.png</file>
