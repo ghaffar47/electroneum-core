@@ -58,8 +58,8 @@ Rectangle {
     property Settings settingsView: Settings { }
     property Mining miningView: Mining { }
     property AddressBook addressBookView: AddressBook { }
-    property Support supportView: Support { }
-
+    //property Support supportView: Support { }
+    
 
     signal paymentClicked(string address, string paymentId, string amount, int mixinCount, int priority, string description)
     signal sweepUnmixableClicked()
@@ -158,11 +158,11 @@ Rectangle {
                 name: "Mining"
                 PropertyChanges { target: root; currentView: miningView }
                 PropertyChanges { target: mainFlickable; contentHeight: minHeight  }
-            }, State {
+            }/*, State {
                  name: "Support"
                  PropertyChanges { target: root; currentView: supportView }
                  PropertyChanges { target: mainFlickable; contentHeight: minHeight }
-            }
+            }*/
         ]
 
     // color stripe at the top
