@@ -30,7 +30,7 @@ See [LICENSE](LICENSE).
 
 (Tested on Ubuntu 16.04 x64)
 
-1. Install Monero dependencies
+1. Install Electroneum dependencies
 
   - For Ubuntu and Mint
 
@@ -72,6 +72,8 @@ The executable can be found in the build/release/bin folder.
 
 ### On OS X:
 
+(Tested on macOS Sierra 10.12.6 - Running on a Late 2014 Mac Mini)
+
 1. Install Xcode from AppStore
 2. Install [homebrew](http://brew.sh/)
 3. Install [electroneum](https://github.com/electroneum/electroneum) dependencies:
@@ -92,13 +94,14 @@ The executable can be found in the build/release/bin folder.
 
 5. Add the Qt bin directory to your path
 
-    Example: `export PATH=$PATH:$HOME/Qt/5.8/clang_64/bin`
+    Example: `export PATH=$PATH:/usr/local/Cellar/qt/5.9.3/bin` (brew install qt5)
+    Example: `export PATH=$PATH:$HOME/Qt/5.8/clang_64/bin` (install from website)
 
     This is the directory where Qt 5.x is installed on **your** system
 
 6. Grab an up-to-date copy of the electroneum-core repository
 
-  `git clone https://github.com/electroneum/electroneum-core.git`
+  `git clone https://github.com/tperalta82/electroneum-core.git`
 
 7. Go into the repository
 

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 function get_platform {
     local platform="unknown"
     if [ "$(uname)" == "Darwin" ]; then
@@ -27,7 +26,6 @@ function get_platform {
     echo "$platform"
 
 }
-
 
 function get_tag()
 {
@@ -62,13 +60,3 @@ function get_tag()
     fi
   fi
 }
-
-
-
-
-
-
-
-
-
-
