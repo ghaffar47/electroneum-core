@@ -2,6 +2,8 @@
 
 Copyleft (c) 2017-Whatever, Me?
 
+change i made was adding bahasa malaysia in it please support tperalta82 for his great job.
+
 
 ## About this Project
 
@@ -13,9 +15,11 @@ As with many development projects, the repository on Github is considered to be 
 
 This GUI development can be supported directly through donations.
 
+my electroneum donation address
+`etnjxYbJfHMN4DkAbB3dbYW92EB8xLdcJ4CdWKMMQApF6xCkU74gLdsEZ5A1Bx1bc1EMw3eBTQr9behJxxrT19qd4Ena5MoShc`
 
 
-The Electroneum donation address is: `etnk5vYSKEj5uFsfa7hd9Aeo3WwD8FmZt4FsQVVYNyk2D1sxAEvM3HGSMDV9ginNLzC8d5sMzFi4y1kNyBUHGyC39U36GgNnoN` (viewkey: `2082e45247978c8c1e58efe473428ce649a17eab6a0478b1a526478118df684a`)
+tperalta82 Electroneum donation address is: `etnk5vYSKEj5uFsfa7hd9Aeo3WwD8FmZt4FsQVVYNyk2D1sxAEvM3HGSMDV9ginNLzC8d5sMzFi4y1kNyBUHGyC39U36GgNnoN` (viewkey: `2082e45247978c8c1e58efe473428ce649a17eab6a0478b1a526478118df684a`)
 
 [Support our mining pool](https://etn.multipools.club).
 
@@ -42,7 +46,7 @@ See [LICENSE](LICENSE).
 
 2. Grab an up-to-date copy of the electroneum-core repository
 
-	`git clone https://github.com/tperalta82/electroneum-core.git`
+	`git clone https://github.com/ghaffar47/electroneum-core.git`
 
 3. Go into the repository
 
